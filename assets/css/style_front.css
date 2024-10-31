@@ -1,0 +1,165 @@
+.pravel_datepicker_product_front h4{
+	font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="radio"]{
+      display: none;
+}
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  vertical-align: middle;
+  border: 2px solid #96588a;
+  border-radius: 50%;
+  padding: 2px;
+	margin-right: 5px;
+    margin-top: -3px;
+}
+input[type="radio"]:checked + label span {
+  width: 20px;
+  height: 20px;
+  background: #96588a;
+  background-clip: content-box;
+} 
+.pravel_datepicker_product_front label{
+	margin:0px !important;
+	margin-right: 10px!important;
+}
+.pravel_product_option_tag{
+	position: absolute;
+    top: 0;
+    right: 0;
+    background: #96588a;
+    padding: 0px 10px;
+    color: #fff;
+}
+.woocommerce-LoopProduct-link{
+	position: relative;
+}
+.pravel_datepicker_product_front{
+	margin-bottom:20px;
+}
+.variation-pravel_rental_product_qty{
+	display:none !important;
+}
+.pravel_rent_date_field_div{
+	margin-bottom:20px;
+}
+.pravel_date_error{
+	padding: 3px 20px;
+    border: 2px solid red;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.pravel_date_error p{
+	margin: 0;
+    color: red;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/**** Date Picker Style ****/
+
+.ui-state-disabled.ui-datepicker-unselectable{
+    opacity: 0.5!important;
+}
+.ui-state-disabled.ui-datepicker-unselectable span{
+	background: #ccc !important;
+    color: #000 !important;
+}
+.ui-datepicker-calendar tbody tr td > *{
+	height:40px !important;
+	width:40px !important;
+	border-radius:0px !important;
+	font-size:14px!important;
+	text-align:center!important;
+	line-height:33px!important;
+}
+.ui-datepicker{
+	width:auto!important;
+	padding: 0 !important;
+    border-radius: 0px !important;
+}
+.ui-datepicker-header{
+	border-radius: 0px !important;
+    border: none !important;
+}
+.ui-state-active, .ui-datepicker-selected_custom-day > a{
+	background: #4498C8 !important;
+	border-color: #4498C8 !important;
+	color: #fff !important;
+}
+.ui-state-highlight
+{
+	background: #ff7f7f !important;
+	border-color: #ff7f7f !important;
+	color: #fff !important;
+}
+td:not(.ui-state-disabled):not(.ui-datepicker-selected_custom-day) > .ui-state-default:not(.ui-state-highlight):not(.ui-state-active){
+	background: #fff !important;	
+	color: #000 !important;
+	border-color: #dec4c4 !important;
+}
+.ui-datepicker table{
+	margin: 0!important;
+}
+
+
+
+.pravel_booking_guide li span{
+	width: 15px;
+    height: 15px;
+    display: inline-block;   
+    position: absolute;
+    top: 4px;
+    left: 0px;
+}
+.pravel_booking_guide li span.disabled_pravel{
+	 background: #e5e5e5;
+}
+.pravel_booking_guide li span.selected_pravel{
+	 background: #4498c8;
+}
+.pravel_booking_guide li span.current_pravel{
+	 background: #ff7f7f;
+}
+.pravel_booking_guide li{
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+    float: left;
+    margin-right: 10px;
+    color: #000;
+}
+.pravel_booking_guide ul{
+	margin:0px;
+	display: inline-block;
+    width: 100%;
+}
+#Notiyformlink{
+	cursor:pointer;
+}
+
+.successMsg {
+    color: #47d162;
+    padding: 5px;
+}
+.errorMsg {
+    color: #cb2626;
+    padding: 5px;
+}
+
+.pravel_attribute_buy_div{
+	margin-bottom: 10px;
+}
+.variation-pravel_product_id{
+	display:none !important;
+}
+
+.pravel_min_book_ins p{
+	margin-bottom:5px;
+}

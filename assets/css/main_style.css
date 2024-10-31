@@ -1,0 +1,187 @@
+.prave_prduct_option_set_css ul.wc-radios{
+	margin: 0px !important;
+}
+.prave_prduct_option_set_css .form-field._field {
+	padding: 5px 20px 5px 13px!important;
+}
+.prave_prduct_option_set_css ul, .prave_prduct_option_set_css legend, .prave_prduct_option_set_css ul li label
+{
+	float:none !important
+}
+.prave_prduct_option_set_css ul li label,  .prave_prduct_option_set_css legend{
+	margin:0px !important;
+}
+.prave_prduct_option_set_css ul li 
+{
+	float: left;
+    margin-right: 8px!important;
+}
+.prave_prduct_option_set_css legend{
+	padding-top: 10px !important;
+}
+.prave_prduct_option_set_css ul li label input{
+	    margin-top: -4px;
+}
+
+#pravel_rental_option, #pravel_booked_data{
+	padding:0px 20px;
+}
+#pravel_rental_option.woocommerce_options_panel input[type=text]{
+	width:100% !important;
+}
+
+.woocommerce_options_panel p.form-field_min{
+	padding: 5px 20px 5px 150px!important;
+}
+
+
+#woocommerce-coupon-data ul.wc-tabs li.pravel_booked_data_tab a::before, #woocommerce-product-data ul.wc-tabs li.pravel_booked_data_tab a::before, 
+.woocommerce ul.wc-tabs li.pravel_booked_data_tab a::before {
+	font-family: Dashicons !important;
+	content: "\f508" !important;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li.pravel_rental_option_tab a::before, #woocommerce-product-data ul.wc-tabs li.pravel_rental_option_tab a::before, 
+.woocommerce ul.wc-tabs li.pravel_rental_option_tab a::before {
+	font-family: Dashicons !important;
+	content: "\f180" !important;
+}
+
+
+.custom_price_main_div{
+	padding: 0px 15px 15px;
+}
+.custom_price_main_div table.widefat input, .custom_price_main_div table.widefat select{
+	width:100% !important;
+}
+
+.pravel_datatable_div{
+	margin-bottom:40px;
+}
+
+.pravel-image-container {
+    padding: 20px;
+}
+
+
+/************Pravel popup css start*************/
+.pravel_popup_bg {
+width: 100%;
+max-width: 750px;
+margin: 0px auto;
+background: #efefef;
+}
+.pravel_popup_main {
+display: flex;
+position: relative;
+}
+.pravel_popup_left {
+-webkit-clip-path: polygon(0 0, 100% 0, 56% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 56% 100%, 0% 100%);
+width: 35%;
+float: left;
+background: #4086ff;
+}
+.pravel_popup_right{
+width: 65%;
+float: left;
+padding: 60px 0px;
+position: relative;
+}
+
+.pravel_popup_right h2 {
+font-size:35px;
+text-align: left;
+color: rgba(0, 0, 0, 0.67);
+padding: 0px 70px;
+line-height:45px;
+margin: 10px 0px !important;
+}
+.pravel_buy_btn {
+max-width: 280px;
+padding: 0px 52px 0px;
+}
+.pravel_buy_logo {
+width: 123px;
+position: absolute;
+top: 40px;
+left: -20%;
+z-index: 9999;
+}
+.pravel_close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 33px;
+    height: 33px;
+    opacity: 0.5;
+    z-index: 999;
+}
+.pravel_close:hover {
+opacity: 1;
+}
+.pravel_close:before, .pravel_close:after {
+position: absolute;
+left: 15px;
+content: ' ';
+height: 33px;
+width: 2px;
+background-color: #333;
+}
+.pravel_close:before {
+transform: rotate(45deg);
+}
+.pravel_close:after {
+transform: rotate(-45deg);
+}
+.pravel_parent_popup {
+width: 100%;
+height: 100vh;
+background: rgba(0, 0, 0, 0.8);
+align-items: center;
+display: flex;
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+z-index: 99999;
+}
+.pravel_buy_logo img, .pravel_buy_btn img{
+	width:100%;
+	
+}
+#mypravelpopup{
+	display:none;
+}
+
+.pravel_rental_tab_hide{
+    display: none !important;
+}
+
+.pravel_rental_tab_show {
+    display: block !important;
+}
+
+@media screen and (max-width: 767px) {
+.pravel_popup_right h2 {
+font-size: 21px;
+text-align: left;
+color: rgba(0, 0, 0, 0.67);
+padding: 0px 15px;
+line-height: 30px;
+}
+.pravel_buy_btn {
+margin: 0px;
+padding: 5px 0px 15px;
+}
+.pravel_buy_logo {
+width: 123px;
+max-width: 65px;
+position: absolute;
+top: 40px;
+left: -44%;
+z-index: 9999;
+}
+
+}
